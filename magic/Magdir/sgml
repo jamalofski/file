@@ -39,6 +39,11 @@
 >>15	string		>\0	(version %.3s)
 !:mime	text/html
 
+# Abiword
+0	string		\<?xml\ version="
+>49	string		abiword		Abiword document from Abisource
+!:mime	application/x-abiword
+
 #------------------------------------------------------------------------------
 # sgml:  file(1) magic for Standard Generalized Markup Language
 # HyperText Markup Language (HTML) is an SGML document type,
