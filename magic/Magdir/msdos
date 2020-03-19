@@ -946,13 +946,13 @@
 
 # Windows Metafile .WMF
 0	string/b	\327\315\306\232	Windows metafile
-!:mime	image/wmf
+!:mime	image/x-wmf
 !:ext	wmf
 0	string/b	\002\000\011\000	Windows metafile
-!:mime	image/wmf
+!:mime	image/x-wmf
 !:ext	wmf
 0	string/b	\001\000\011\000	Windows metafile
-!:mime	image/wmf
+!:mime	image/x-wmf
 !:ext	wmf
 
 #tz3 files whatever that is (MS Works files)
