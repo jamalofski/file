@@ -47,7 +47,8 @@
 >&0	string		x		\b, version %s
 
 # HP Printer Job Language
-0	string		\033%-12345X@PJL	HP Printer Job Language data
+0	string		\033%-12345X@PJL\ JOB	HP Printer Job Language data
+!:mime	application/postscript
 # HP Printer Job Language
 # The header found on Win95 HP plot files is the "Silliest Thing possible"
 # (TM)
