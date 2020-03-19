@@ -1471,7 +1471,7 @@
 0	ulelong 1
 >40	string	\ EMF		Windows Enhanced Metafile (EMF) image data
 >>44	ulelong x		version 0x%x
-
+!:mime	image/x-emf
 
 0	string/b	\224\246\056		Microsoft Word Document
 !:mime	application/msword
