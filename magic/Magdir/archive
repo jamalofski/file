@@ -1124,32 +1124,51 @@
 #    (mimetype contains "application/vnd.kde.<SUBTYPE>")
 >>50	string	vnd.kde.		KOffice (>=1.2)
 >>>58	string	karbon			Karbon document
+!:mime	application/vnd.kde.karbon
 >>>58	string	kchart			KChart document
+!:mime	application/vnd.kde.kchart
 >>>58	string	kformula		KFormula document
+!:mime	application/vnd.kde.kformula
 >>>58	string	kivio			Kivio document
+!:mime	application/vnd.kde.kivio
 >>>58	string	kontour			Kontour document
+!:mime	application/vnd.kde.kontour
 >>>58	string	kpresenter		KPresenter document
+!:mime	application/vnd.kde.kpresenter
 >>>58	string	kspread			KSpread document
+!:mime	application/vnd.kde.kspread
 >>>58	string	kword			KWord document
+!:mime	application/vnd.kde.kword
 
 #   OpenOffice formats (for OpenOffice 1.x / StarOffice 6/7)
 #    (mimetype contains "application/vnd.sun.xml.<SUBTYPE>")
 >>50	string	vnd.sun.xml.		OpenOffice.org 1.x
 >>>62	string	writer			Writer
 >>>>68	byte	!0x2e			document
+!:mime	application/vnd.sun.xml.writer
 >>>>68	string	.template		template
+!:mime	application/vnd.sun.xml.writer.template
 >>>>68	string	.global			global document
+!:mime	application/vnd.sun.xml.writer.global
 >>>62	string	calc			Calc
 >>>>66	byte	!0x2e			spreadsheet
+!:mime	application/vnd.sun.xml.spreadsheet
 >>>>66	string	.template		template
+!:mime	application/vnd.sun.xml.spreadsheet.template
 >>>62	string	draw			Draw
 >>>>66	byte	!0x2e			document
+!:mime	application/vnd.sun.xml.draw
 >>>>66	string	.template		template
+!:mime	application/vnd.sun.xml.draw.template
 >>>62	string	impress			Impress
 >>>>69	byte	!0x2e			presentation
+!:mime	application/vnd.sun.xml.impress
 >>>>69	string	.template		template
+!:mime	application/vnd.sun.xml.impress.template
 >>>62	string	math			Math document
+!:mime	application/vnd.sun.xml.math
 >>>62	string	base			Database file
+!:mime	application/vnd.sun.xml.base
 
 #   OpenDocument formats (for OpenOffice 2.x / StarOffice >= 8)
 #   URL: http://fileformats.archiveteam.org/wiki/OpenDocument
