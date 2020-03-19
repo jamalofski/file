@@ -1492,7 +1492,8 @@
 # URL:	https://en.wikipedia.org/wiki/Microsoft_Document_Imaging_Format
 # From: Daniele Sempione <scrows@oziosi.org>
 # Too weak (EP)
-#0	short	0x5045			Microsoft Document Imaging Format
+0	short	0x5045			Microsoft Document Imaging Format
+!:mime	image/vnd.ms-modi
 
 # MS eBook format (.lit)
 0	string/b	ITOLITLS		Microsoft Reader eBook Data
