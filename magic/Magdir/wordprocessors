@@ -28,7 +28,8 @@
 !:ext	wps
 
 # Corel/WordPerfect
-0	string	\xffWPC
+0	string	\xffWPC		(WP) loadable file
+!:mime	application/wordperfect
 # WordPerfect
 >8	byte	1
 >>9	byte	1	WordPerfect macro
